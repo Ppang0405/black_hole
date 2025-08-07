@@ -872,3 +872,72 @@ Would you like me to update the remote origin with a specific URL?
 
 ---
 
+_**User**_
+
+to this @https://github.com/Ppang0405/black_hole 
+
+---
+
+_**Assistant**_
+
+I'll help you update the remote origin to point to the GitHub repository at https://github.com/Ppang0405/black_hole. Let me execute the git command to update the remote origin URL.
+
+---
+
+```bash
+git remote set-url origin https://github.com/Ppang0405/black_hole.git
+```
+
+```
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$ git remote set-url origin https://github.com/Ppang0405/black_hol
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$ git remote set-url origin https://github.com/Ppang0405/black_hol
+e.git
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$
+```
+
+---
+
+Now let me verify that the remote origin has been updated correctly:
+
+---
+
+```bash
+git remote -v
+```
+
+```
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$ git remote -v
+origin  https://github.com/Ppang0405/black_hole.git (fetch)
+origin  https://github.com/Ppang0405/black_hole.git (push)
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$
+```
+
+---
+
+Perfect! ✅ The remote origin has been successfully updated. Let me test the connection and then help you push your new documentation:
+
+---
+
+```bash
+git fetch origin
+```
+
+```
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$ git fetch origin
+CL-LT-FV5217G4MK:black_hole truong.nguyen3$
+```
+
+---
+
+Excellent! The connection is working. Now let's add and commit your new documentation, then push it to the updated repository:
+
+---
+
+
+
+---
+
+
+
+---
+
